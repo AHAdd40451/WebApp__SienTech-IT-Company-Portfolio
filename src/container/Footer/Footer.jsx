@@ -6,6 +6,8 @@
 /* eslint-disable no-console */
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { runFireworks } from './fireworks';
+
 
 import { images } from '../../constants';
 import { AppWrap, MotionWrap } from '../../wrapper';
@@ -79,6 +81,7 @@ const Footer = () => {
         <div>
           <h3 className="head-text">
             Thank you for getting in touch!
+            {runFireworks()}
           </h3>
         </div>
 
