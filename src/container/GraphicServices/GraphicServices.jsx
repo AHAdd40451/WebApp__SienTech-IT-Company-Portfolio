@@ -318,5 +318,4 @@ const GraphicServices = () => (
 export default AppWrap(
     MotionWrap(GraphicServices, 'app__works'),
     'work',
-    'app__whitebg',
 );

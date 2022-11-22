@@ -6,19 +6,20 @@ import './App.scss';
 
 const App = () => (
   <div className="app">
-    <Navbar />
-    <Headers />
-    <About />
-    <Boost />
-    <GraphicServices />
-    <WebProcess />
-    <Costumer />
-    <Footer />
     {/* <Work /> */}
     {/* <Skills /> */}
     {/* <Testimonial /> */}
+    <Navbar />
+    <Headers />
+    <About />
+    <GraphicServices />
+    <Boost />
+    <WebProcess />
+    <Costumer />
+    <Footer />
 
   </div>
+
 );
 
 export default App;
