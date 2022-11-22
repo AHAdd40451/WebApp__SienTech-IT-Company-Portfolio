@@ -104,7 +104,7 @@ const styles = {
 
 const Boost = () => (
 
-    <Box sx={styles.boostAgencies}>
+    <Box sx={styles.boostAgencies} id="web">
         <Container>
             <Box sx={styles.row}>
                 <Flex sx={styles.col}>
@@ -332,6 +332,6 @@ const Boost = () => (
 );
 
 export default AppWrap(
-    MotionWrap(Boost, 'app__works'),
+    MotionWrap(Boost, 'web'),
     'work',
 );

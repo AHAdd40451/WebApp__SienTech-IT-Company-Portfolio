@@ -50,9 +50,13 @@ import logoD from '../assets/logoD.png';
 import uiux from '../assets/ui-ux.png';
 import graph from '../assets/graphic.png';
 import cta from '../assets/cta-2-1.png';
+import g from '../assets/g.jpg';
+import w from '../assets/w.jpg';
 
 export default {
   email,
+  w,
+  g,
   cta,
   Brochers,
   graph,

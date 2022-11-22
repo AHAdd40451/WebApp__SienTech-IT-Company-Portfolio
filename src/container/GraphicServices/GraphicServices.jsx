@@ -106,7 +106,7 @@ const styles = {
 
 const GraphicServices = () => (
 
-    <Box sx={styles.boostAgencies}>
+    <Box sx={styles.boostAgencies} id="app__works">
         <Container>
             <Box sx={styles.row}>
                 <Flex sx={styles.col}>
