@@ -16,7 +16,7 @@ const AboutUs = () => (
 
         <h1 className='main-head'>About Us</h1>
 
-        <h2 className="head-text"><span> Providing the simplest solution for the most complex problem
+        <h2 className="head-text1"><span> Providing the simplest solution for the most complex problem
         </span></h2>
 
 

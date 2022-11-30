@@ -1,3 +1,4 @@
+/* eslint-disable import/newline-after-import */
 /* eslint-disable no-unused-vars */
 import React from 'react';
 import { Box, Container, Grid, Heading, Text } from 'theme-ui';
@@ -5,6 +6,7 @@ import { motion } from 'framer-motion';
 import Image from './Images';
 import { images } from '../../constants';
 import { AppWrap } from '../../wrapper';
+import('./Headers.css');
 
 const styles = {
   banner: {
@@ -119,23 +121,9 @@ const Headers = () => (
           transition={{ duration: 0.5 }}
         >
           <Box sx={styles.content}>
-            <Heading as="h3" className="head-text">
+            <Heading className="head-text1">
               Build Your Audience & Grow <span> Your Business Online Smarter  </span>
             </Heading>
-            {/* <Text as="p">
-              We help build and manage a team of world-class developers to bring
-              your vision to life.
-            </Text> */}
-            {/* <Text as="p">
-              Great Website & Design is built with Amazing Developers.
-            </Text>
-            <Text as="p">
-              We will turn your idea in the successful business model framework.
-            </Text>
-            <Text as="p">
-              We believe in the power of elegant minimalism in a world increasingly saturated with garish colour.
-            </Text> */}
-
           </Box>
         </motion.div>
         <Box sx={styles.image}>

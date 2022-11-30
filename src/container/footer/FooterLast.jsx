@@ -33,9 +33,9 @@ const FooterLast = () => (
           <div className="footer-col">
             <h4>Locations</h4>
             <ul>
-              <li><img src={images.canada} alt="" className="canada" /><li className="flag-de">19913 70 avenue unit 9 Langley, BC, Canada Zip Code V2Y0S9
+              <li><img src={images.canada} alt="" className="canada" /><li className="flag-de">1003 , 46 Street NE , Calgary T3J0Y7, Alberta , Canada
               </li></li>
-              <li><img src={images.pak} alt="" className="canada" /><li className="flag-de">Suite # B16 Block 1 Gulshan e iqbal, Karachi
+              <li><img src={images.pak} alt="" className="canada" /><li className="flag-de">L97 Sector 5M North Karachi,Pakistan
               </li></li>
 
             </ul>
