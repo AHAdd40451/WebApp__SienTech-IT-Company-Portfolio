@@ -1,0 +1,64 @@
+.About_container{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.p-about{
+    font-size: 0.5rem;
+    text-indent: 1rem;
+    margin: 1rem;
+    line-height: 2rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.main-head{
+    margin-top: 2rem;
+}
+
+.about-para{
+    text-indent: 1rem;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.6rem;
+    font-weight: 900;
+    text-align: left;
+    color: var(--gray-color);
+    line-height: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+
+
+ @media screen and (max-width: 1200px) {
+    .about-para{
+        width: 100%;
+        padding: 1rem;
+    font-size: 1rem;
+    line-height: 3rem;
+
+     
+    }
+    
+ }
+
+ @media screen and (max-width: 600px) {
+    .about-para{
+        width: 100%;
+        padding: 1rem;
+    font-size: 1rem;
+    line-height: 2rem;
+
+    
+    }
+
+}

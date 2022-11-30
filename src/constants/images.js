@@ -52,9 +52,13 @@ import graph from '../assets/graphic.png';
 import cta from '../assets/cta-2-1.png';
 import g from '../assets/g.jpg';
 import w from '../assets/w.jpg';
+import canada from '../assets/canada.webp';
+import pak from '../assets/pak.jpg';
 
 export default {
   email,
+  canada,
+  pak,
   w,
   g,
   cta,

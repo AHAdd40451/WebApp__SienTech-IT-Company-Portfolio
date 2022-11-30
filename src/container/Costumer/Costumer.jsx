@@ -73,7 +73,7 @@ const styles = {
             letterSpacing: ['-0.5px', null, null, null, null, null, '-1.5px'],
         },
         p: {
-            fontSize: ['1rem'],
+            fontSize: ['1.3rem'],
             color: 'text_secondary',
             opacity: '',
             lineHeight: ['3rem'],

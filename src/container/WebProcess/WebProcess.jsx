@@ -7,7 +7,7 @@ import { Box, Container, Grid, Heading, Text } from 'theme-ui';
 import { motion } from 'framer-motion';
 import Image from '../Header/Images';
 import BlockTitle from './block-title';
-import { AppWrap } from '../../wrapper';
+import { AppWrap, MotionWrap } from '../../wrapper';
 
 import { images } from '../../constants';
 
@@ -139,5 +139,8 @@ const WebProcess = () => (
         </Box>
     </motion.div>
 );
-
-export default AppWrap(WebProcess);
+export default AppWrap(
+    MotionWrap(WebProcess, 'app__skills'),
+    'skills',
+    'app__primarybg',
+);

@@ -7,11 +7,11 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
-import './About.scss';
+import './Services.scss';
 import { urlFor, client } from '../../client';
 import { images } from '../../constants';
 
-const About = () => {
+const Services = () => {
   const [abouts, setAbouts] = useState([]);
 
   useEffect(() => {
@@ -77,8 +77,8 @@ const About = () => {
 };
 
 export default AppWrap(
-  MotionWrap(About, 'app__about'),
-  'about',
+  MotionWrap(Services, 'app__about'),
+  'services',
   'app__whitebg',
 );
 
