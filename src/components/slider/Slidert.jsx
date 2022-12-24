@@ -51,7 +51,7 @@ const styles = {
 const Slidert = () => {
 
   return (
-    <Carousel  autoFocus ariaLabel emulateTouch autoPlay swipeable  transitionTime={"5000"} interval={"5000"} showThumbs={false}>
+    <Carousel  autoFocus  autoPlay   transitionTime={"5000"} interval={"5000"} showThumbs={false}>
       {sliderItems?.map((item) => (
         <div className="container-slider" key={item.id}>
           <div className="container-img">
