@@ -1,5 +1,5 @@
 import NavigationDots from "./NavigationDots";
 import SocialMedia from "./SocialMedia";
 import Navbar from "./Navbar/Navbar";
-
-export { NavigationDots, SocialMedia, Navbar };
+import Slidert from "./slider/Slidert";
+export { NavigationDots, SocialMedia, Navbar,Slidert };

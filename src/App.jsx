@@ -11,7 +11,7 @@ import {
   Costumer,
   Boost,
 } from "./container";
-import { Navbar } from "./components";
+import { Navbar,Slidert } from "./components";
 // import { Navbar } from "./components";
 import { Router, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./container/Work/scroolup";
@@ -25,7 +25,7 @@ const App = () => (
         path={"/"}
         element={
           <>
-            <Headers />
+           <Slidert /> 
             <AboutUs />
             <Services />
             <WebProcess />

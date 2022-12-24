@@ -87,7 +87,7 @@ const SERVICES_DATA = [
   },
   {
     icon: images.featureImage2,
-    title: "Web Design and Development",
+    title: "Design and Development",
     text: "Once the specifications are identified, the team starts developing the solution.",
   },
   {

@@ -19,19 +19,19 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="app__flex p-text">
-          <div />
+          
           <Link to="/">Home</Link>
         </li>
         <li className="app__flex p-text">
-          <div />
+          
           <Link to="/about">About</Link>
         </li>
         <li className="app__flex p-text">
-          <div />
+          
           <Link to="/services">Services</Link>
         </li>
         <li className="app__flex p-text">
-          <div />
+          
           <Link to="/work">Contact Us</Link>
         </li>
       </ul>
@@ -45,7 +45,36 @@ const Navbar = () => {
             transition={{ duration: 0.85, ease: "easeOut" }}
           >
             <HiX onClick={() => setToggle(false)} />
-            <ul>
+         
+                <ul className="app__navbar-links">
+        <li >
+          
+          <Link to="/" onClick={() => setToggle(false)}>Home</Link>
+        </li>
+        <li >
+          
+          <Link to="/about" onClick={() => setToggle(false)}>About</Link>
+        </li>
+        <li >
+          
+          <Link to="/services" onClick={() => setToggle(false)}>Services</Link>
+        </li>
+        <li >
+          
+          <Link to="/work" onClick={() => setToggle(false)}>Contact Us</Link>
+        </li>
+      </ul>
+
+
+           
+          </motion.div>
+        )}
+      </div>
+    </nav>
+  );
+};
+
+   {/* <ul>
               {["home", "about", "services", "work", "skills", "contact"].map(
                 (item) => (
                   <li key={item}>
@@ -55,12 +84,6 @@ const Navbar = () => {
                   </li>
                 )
               )}
-            </ul>
-          </motion.div>
-        )}
-      </div>
-    </nav>
-  );
-};
+            </ul> */}
 
 export default Navbar;

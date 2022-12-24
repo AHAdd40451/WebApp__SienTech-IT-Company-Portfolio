@@ -17,15 +17,9 @@
 
 .scientech{
   width: 1rem;
-  color: var(--secondary-color);
-  font-size: 2rem;
+  color: black;
+  font-size: 1.3rem;
 
-  @media screen and (max-width: 900px) {
-    width: 0.5rem;
-  color: var(--secondary-color);
-  font-size: 1rem;
-
-  }
 
 }
 
@@ -44,16 +38,9 @@ a:active{text-decoration: none;}
 
   img {
     width: 70px;
-    height: 50px;
+    height: 40px;
 
-    @media screen and (min-width: 2000px) {
-      width: 180px;
-      height: 40px;
-    }
-    @media screen and (max-width: 900px) {
-      width: 100px;
-      height: 3rem;
-    }
+ 
   }
 }
 

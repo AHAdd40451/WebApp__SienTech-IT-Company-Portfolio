@@ -54,8 +54,17 @@ import g from '../assets/g.jpg';
 import w from '../assets/w.jpg';
 import canada from '../assets/canada.webp';
 import pak from '../assets/pak.jpg';
+import graphicSlider from '../assets/graphicSlider.webp';
+import faceGraphic from '../assets/faceGraphic.png';
+import companySlider from '../assets/companySlider.png';
+
+
+
 
 export default {
+  companySlider,
+  faceGraphic,
+  graphicSlider,
   email,
   canada,
   pak,
