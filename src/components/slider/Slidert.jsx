@@ -40,8 +40,8 @@ const styles = {
       mixBlendMode: "darken",
       position: "relative",
       top: ["0", null, null, null, null, "-40px"],
-      maxWidth: ["100%", null, null, null, null, null, "none"],
-      height: "auto",
+      Width: "100%",
+      height: "100%",
     },
   },
 }
@@ -51,11 +51,11 @@ const styles = {
 const Slidert = () => {
 
   return (
-    <Carousel autoPlay infiniteLoop interval="3000" transitionTime="6000" showThumbs={false} >
+    <Carousel autoFocus autoPlay interval="4000" transitionTime="4000" showThumbs={false} infiniteLoop >
       {sliderItems?.map((item) => (
         <div className="container-slider" key={item.id}>
           <div className="container-img">
-              <Box sx={styles.image}> <img src={item?.img} alt="head-sientech" />
+              <Box sx={styles.image}> <img src={item?.img} alt="head-sientech"  className="head-sc"/>
               </Box>
           </div>
           <div className="container-info">

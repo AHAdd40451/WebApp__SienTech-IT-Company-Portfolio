@@ -18,7 +18,7 @@ import { ScrollToTop } from "./container/Work/scroolup";
 import "./App.scss";
 const App = () => (
   <div className="app">
-    <Navbar />
+    {/* <Navbar /> */}
     <ScrollToTop />
     <Routes>
       <Route

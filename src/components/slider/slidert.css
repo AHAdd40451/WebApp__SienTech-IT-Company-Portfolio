@@ -20,7 +20,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
    background-color: var( --primary-color);
 }
@@ -29,7 +28,7 @@ img{
     background-color: transparent;
 }
 .container-info{
-    flex: 1;
+ flex: 1;
     padding: 50px;
     flex-wrap: wrap;
     display: flex;
@@ -77,15 +76,14 @@ img{
 
 @media only screen and (max-width: 600px) {
     .container-title{
-        /* display: none; */
-        font-size: 1rem;
+        font-size: 0.8rem;
     
     }
     .container-desc{     
         /* display: none; */
         display: flex;
         flex-direction: row;
-        font-size: 1rem;
+        font-size: 12.4px;
         font-weight: 500;
         letter-spacing: 3px;
         flex-wrap: wrap;
@@ -102,14 +100,17 @@ img{
         background-color: transparent;
         cursor: pointer;
     }
+
+    .head-sc{
+        height: 100%;
+    }
     
-    .container-img{
+    .container-img {
         height: 100%;
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
         margin-left: 2rem;
         background-color: var( --primary-color);
