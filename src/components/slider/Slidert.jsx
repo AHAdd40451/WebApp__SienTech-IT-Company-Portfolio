@@ -51,7 +51,7 @@ const styles = {
 const Slidert = () => {
 
   return (
-    <Carousel autoFocus autoPlay interval="4000" transitionTime="4000" showThumbs={false} infiniteLoop >
+    <Carousel  emulateTouch={true} swipeable={true} autoFocus autoPlay interval="5000" transitionTime="5000" showThumbs={false}  infiniteLoop>
       {sliderItems?.map((item) => (
         <div className="container-slider" key={item.id}>
           <div className="container-img">
