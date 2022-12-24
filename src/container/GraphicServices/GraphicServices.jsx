@@ -36,7 +36,7 @@ const styles = {
     display: "flex",
     flexWrap: "wrap",
     flexDirection: ["column", null, null, "row-reverse"],
-    marginBottom: "10rem",
+    marginBottom: "15rem",
   },
   col: {
     flex: ["0 0 100%", null, null, "0 0 50%"],
