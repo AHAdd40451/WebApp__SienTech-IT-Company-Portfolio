@@ -1,3 +1,8 @@
+
+*{
+    scroll-behavior: smooth;
+
+}
 .container-slider {
 
     width: 100%;
@@ -11,6 +16,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 2rem;
+    scroll-behavior: smooth;
+
 }
 
 .container-img {
@@ -40,6 +47,7 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    scroll-behavior: smooth;
 }
 
 .container-title {
