@@ -95,7 +95,7 @@ img {
         background-color: var(--primary-color);
     }
     .container-title {
-        font-size: 0.8rem;
+        font-size: 2rem;
 
     }
 
@@ -103,7 +103,7 @@ img {
         /* display: none; */
         display: flex;
         flex-direction: row;
-        font-size: 12.4px;
+        font-size: 1.4rem;
         font-weight: 1000;
         letter-spacing: 3px;
         flex-wrap: wrap;
@@ -146,6 +146,8 @@ img {
         justify-content: center;
         flex-direction: row;
         display: flex;
+        margin-bottom: 3rem;
+        
     }
 
 }

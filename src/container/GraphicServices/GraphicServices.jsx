@@ -19,12 +19,16 @@ let graph = [
     image: images.Brochers,
     title: "BROCHURES & FLYERS DESIGNING",
     li1: "Brochures and flyers are cost-efficient marketing means, but aren't they just so confusing? Although complicated yet very important, we can help you design them. We offer brochures and flyer designs services faster and at reasonable prices. Our designs are appealing and spot-on to attract viewers. We have got the skills to combine your digital and print marketing necessities and create impactful marketing campaigns.",
+    margin:"13rem",  
   },
   {
     id: 3,
     image: images.uiux,
     title: "WEB DESIGN (UX/UI)",
     li1: "From B2B to B2C websites, SienTech Limited renders characteristic web, UI, and UX design services that are pixel perfect and use a responsive design approach to make it appealing, dynamic, and stand out from your competitors. Our website design services in addition to our Web development can help you get greater brand engagement, boost more revenue, and get higher conversions.",
+    margin:"13rem",  
+    marginB:"10rem"
+   
   },
 ];
 
@@ -36,7 +40,6 @@ const styles = {
     display: "flex",
     flexWrap: "wrap",
     flexDirection: ["column", null, null, "row-reverse"],
-    marginBottom: "15rem",
   },
   col: {
     flex: ["0 0 100%", null, null, "0 0 50%"],
@@ -182,13 +185,10 @@ const GraphicServices = () => (
           </Box>
         </Flex>
       </Box>
-      <br />
-      <br />
-      <br />
-      <br />
+     
 
       {graph.map((item) => (
-        <Box sx={styles.row} key={item.id}>
+        <Box sx={styles.row} key={item.id} style={{marginTop:item.margin,marginBottom:item.marginB,}}>
           <Flex sx={styles.col}>
             <Image src={item.image} sx={styles.image} alt="" />
           </Flex>

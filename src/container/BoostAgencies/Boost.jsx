@@ -33,7 +33,6 @@ const styles = {
     display: "flex",
     marginLeft: ["0", null, null, null, "auto"],
     marginRight: ["0", null, null, null, "auto"],
-    marginTop: "9rem",
     height: ["300px"],
     position: "relative",
     overflow: "hidden",
@@ -71,14 +70,7 @@ const styles = {
       fontWeight: "bold",
       letterSpacing: ["-0.5px", null, null, null, null, null, "-1.5px"],
     },
-    // p: {
-    //     fontSize: ['1rem'],
-    //     color: 'text_secondary',
-    //     opacity: '',
-    //     lineHeight: ['26px', null, null, 1.8, null, 2.06],
-    //     padding: ['0 20px', null, null, '0'],
-    //     mt: ['15px'],
-    // },
+ 
   },
   link: {
     color: "primary",
@@ -172,12 +164,6 @@ const Boost = () => (
           </Box>
         </Flex>
       </Box>
-
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
 
       <Box sx={styles.row}>
         <Flex sx={styles.col}>

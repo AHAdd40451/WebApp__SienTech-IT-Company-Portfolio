@@ -15,8 +15,8 @@ const sliderItems = [
   {
     id: 0,
     img: images.companySlider,
-    title: "Software Company",
-    desc: "Listening to you, and answering with software !",
+    title: "SienTech",
+    desc: "Listening to you, and answering with software!",
   },
   {
     id: 1,
@@ -51,7 +51,7 @@ const styles = {
 const Slidert = () => {
 
   return (
-    <Carousel autoFocus autoPlay swipeable  transitionTime={"5000"} interval={"5000"}>
+    <Carousel  autoFocus ariaLabel emulateTouch autoPlay swipeable  transitionTime={"5000"} interval={"5000"} showThumbs={false}>
       {sliderItems?.map((item) => (
         <div className="container-slider" key={item.id}>
           <div className="container-img">
@@ -66,7 +66,6 @@ const Slidert = () => {
               {item?.categories} 
               </Heading>
             <p className="container-desc">{item?.desc}</p>
-            <Link to={`/work`}><div className="container-btn">Contact Now !</div></Link>
           </div>
         </div>
       ))}
