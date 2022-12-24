@@ -1,6 +1,6 @@
 
-@media screen and (max-width: 500px) {
-   p{
-       font-size: 10rem;
-    }
+
+.boost-img{
+    background-color: var(--primary-color);
+    justify-content: center;
 }
