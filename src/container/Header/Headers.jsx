@@ -1,10 +1,10 @@
-/* eslint-disable import/newline-after-import */
-/* eslint-disable no-unused-vars */
+
 import React from "react";
-import { Box, Container, Grid, Heading, Text } from "theme-ui";
+import { Box, Container, Grid, Heading } from "theme-ui";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
 import { AppWrap } from "../../wrapper";
+
 import("./Headers.css");
 
 const styles = {

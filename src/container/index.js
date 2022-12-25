@@ -25,15 +25,3 @@ export {
   Boost,
 };
 
-// AboutUs,
-// FooterLast,
-// Services,
-// Footer,
-// Skills,
-// Testimonial,
-// Work,
-// Headers,
-// Boost,
-// WebProcess,
-// GraphicServices,
-// Costumer,

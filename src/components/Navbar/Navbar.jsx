@@ -74,16 +74,5 @@ const Navbar = () => {
   );
 };
 
-   {/* <ul>
-              {["home", "about", "services", "work", "skills", "contact"].map(
-                (item) => (
-                  <li key={item}>
-                    <Link to={`/${item}`} onClick={() => setToggle(false)}>
-                      {item}
-                    </Link>
-                  </li>
-                )
-              )}
-            </ul> */}
 
 export default Navbar;

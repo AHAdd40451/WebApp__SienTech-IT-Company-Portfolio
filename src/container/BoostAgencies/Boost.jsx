@@ -1,12 +1,6 @@
-/* eslint-disable react/jsx-closing-tag-location */
-/* eslint-disable no-multiple-empty-lines */
-/* eslint-disable react/jsx-indent-props */
-/* eslint-disable import/order */
-/* eslint-disable no-unused-vars */
-/* eslint-disable react/jsx-indent */
-/* eslint-disable indent */
+
 import React from "react";
-import { Box, Container, Flex, Heading, Text } from "theme-ui";
+import { Box, Container, Flex, Text } from "theme-ui";
 
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import Image from "../Header/Images";

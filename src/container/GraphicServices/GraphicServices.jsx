@@ -87,14 +87,7 @@ const styles = {
       fontWeight: "bold",
       letterSpacing: ["-0.5px", null, null, null, null, null, "-1.5px"],
     },
-    // p: {
-    //     fontSize: [0, null, 2, null, '20px'],
-    //     color: 'text_secondary',
-    //     opacity: '',
-    //     lineHeight: ['26px', null, null, 1.8, null, 2.06],
-    //     padding: ['0 20px', null, null, '0'],
-    //     mt: ['15px'],
-    // },
+
   },
   link: {
     color: "primary",

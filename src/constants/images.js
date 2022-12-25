@@ -57,11 +57,15 @@ import pak from '../assets/pak.jpg';
 import graphicSlider from '../assets/graphicSlider.webp';
 import faceGraphic from '../assets/faceGraphic.png';
 import companySlider from '../assets/companySlider.png';
+import finalSc from '../assets/finalSc.png';
+
+
 
 
 
 
 export default {
+  finalSc,
   companySlider,
   faceGraphic,
   graphicSlider,
