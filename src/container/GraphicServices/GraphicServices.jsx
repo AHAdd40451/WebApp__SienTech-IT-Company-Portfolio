@@ -19,7 +19,7 @@ let graph = [
     image: images.Brochers,
     title: "BROCHURES & FLYERS DESIGNING",
     li1: "Brochures and flyers are cost-efficient marketing means, but aren't they just so confusing? Although complicated yet very important, we can help you design them. We offer brochures and flyer designs services faster and at reasonable prices. Our designs are appealing and spot-on to attract viewers. We have got the skills to combine your digital and print marketing necessities and create impactful marketing campaigns.",
-    margin:"13rem",  
+    margin:"14rem",  
   },
   {
     id: 3,

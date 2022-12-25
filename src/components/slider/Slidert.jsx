@@ -16,7 +16,8 @@ const sliderItems = [
     id: 0,
     img: images.companySlider,
     title: "SienTech",
-    desc: "Listening to you, and answering with software!",
+    desc: "Listening to you, and answering with software! and we make certain that we deliver the finest.",
+    margin:"-1rem",
   },
   {
     id: 1,
@@ -51,14 +52,14 @@ const styles = {
 const Slidert = () => {
 
   return (
-    <Carousel  autoFocus  autoPlay  swipeScrollTolerance={100} preventMovementUntilSwipeScrollTolerance transitionTime={"3000"} interval={"3000"} showThumbs={false} infiniteLoop>
+    <Carousel  autoFocus   autoPlay swipeScrollTolerance={100} preventMovementUntilSwipeScrollTolerance transitionTime={"4000"} interval={"4000"} showThumbs={false} infiniteLoop>
       {sliderItems?.map((item) => (
         <div className="container-slider" key={item.id}>
           <div className="container-img">
-              <Box sx={styles.image}> <img src={item?.img} alt="head-sientech"  className="head-sc"/>
+              <Box sx={styles.image}> <img src={item?.img} alt="head-sientech" className="head-sc"  />
               </Box>
           </div>
-          <div className="container-info">
+          <div className="container-info" style={{marginTop:item.margin}}>
             <h1 className="container-title">
             <span> {item?.title} </span></h1>
 
