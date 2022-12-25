@@ -5,6 +5,7 @@ import { AppWrap, MotionWrap } from "../../wrapper";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
 import Image from "../Header/Images";
+import { Helmet } from "react-helmet-async";
 import("./Graphic.css");
 
 let graph = [
@@ -117,6 +118,13 @@ const styles = {
 };
 
 const GraphicServices = () => (
+<>  
+<Helmet>
+  <title>Graphic-Designing</title>
+  <meta name="description" content="Get your favroute Graphic Design at good price" />
+  <link rel="canonical" href="/graphic" />
+</Helmet>
+
   <Box sx={styles.boostAgencies} id="app__Graphic">
     <Container>
       <Box sx={styles.row}>
@@ -215,6 +223,7 @@ const GraphicServices = () => (
       ))}
     </Container>
   </Box>
+  </>
 );
 
 export default AppWrap(MotionWrap(GraphicServices, "app__Graphic"), "Graphic");

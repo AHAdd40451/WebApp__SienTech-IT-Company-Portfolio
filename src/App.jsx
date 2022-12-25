@@ -11,7 +11,8 @@ import {
   Costumer,
   Boost,
 } from "./container";
-import { Navbar,Slidert } from "./components";
+import Home from "./pages/Home"
+import { Navbar, Slidert } from "./components";
 // import { Navbar } from "./components";
 import { Router, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./container/Work/scroolup";
@@ -23,15 +24,7 @@ const App = () => (
     <Routes>
       <Route
         path={"/"}
-        element={
-          <>
-           <Slidert /> 
-            <AboutUs />
-            <Services />
-            <WebProcess />
-            <Costumer />
-          </>
-        }
+        element={   <Home />}
       />
       <Route path="/website" element={<Boost />} />
       <Route path="/graphic" element={<GraphicServices />} />

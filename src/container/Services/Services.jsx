@@ -9,6 +9,7 @@ import "./Services.scss";
 import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 const Services = () => {
   let data = [
@@ -31,6 +32,13 @@ const Services = () => {
   ];
 
   return (
+    <>
+    <Helmet>
+  <title>Services</title>
+  <meta name="description" content="Grow your startup with our Services" />
+  <link rel="canonical" href="/services" />
+</Helmet>
+
     <div className="services_container" id="services">
       <h2 className="head-text">
         We Know that <span>Good Services</span> <br />
@@ -91,6 +99,8 @@ const Services = () => {
         </motion.div> */}
       </div>
     </div>
+    </>
+
   );
 };
 

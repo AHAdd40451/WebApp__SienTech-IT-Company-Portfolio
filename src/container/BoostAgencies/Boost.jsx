@@ -12,10 +12,12 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 import Image from "../Header/Images";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 
 import { images } from "../../constants";
 
 import("./Boost.css");
+
 
 const styles = {
   boostAgencies: {
@@ -70,7 +72,7 @@ const styles = {
       fontWeight: "bold",
       letterSpacing: ["-0.5px", null, null, null, null, null, "-1.5px"],
     },
- 
+
   },
   link: {
     color: "primary",
@@ -94,7 +96,16 @@ const styles = {
 };
 
 const Boost = () => (
+
+<>
+<Helmet>
+  <title>Web-Development</title>
+  <meta name="description" content="get your responsive website at resonable price" />
+  <link rel="canonical" href="/website" />
+</Helmet>
+
   <Box sx={styles.boostAgencies} id="web">
+
     <Container className="boost-img">
       <Box sx={styles.row} className="boost-img">
         <Flex sx={styles.col} className="boost-img">
@@ -302,6 +313,7 @@ const Boost = () => (
       </Box>
     </Container>
   </Box>
+  </>
 );
 
 export default AppWrap(MotionWrap(Boost, "web"), "work");
