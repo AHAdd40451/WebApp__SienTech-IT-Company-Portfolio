@@ -52,7 +52,7 @@ import graph from '../assets/graphic.png';
 import cta from '../assets/cta-2-1.png';
 import g from '../assets/g.jpg';
 import w from '../assets/w.jpg';
-import canada from '../assets/canada.webp';
+import canada from '../assets/canada.png';
 import pak from '../assets/pak.jpg';
 import graphicSlider from '../assets/graphicSlider.webp';
 import faceGraphic from '../assets/faceGraphic.png';

@@ -5,9 +5,8 @@ import {
   AboutUs,
   GraphicServices,
   Footer,
-  FooterLast,
-
-  Boost,
+  ContactUs,
+  WebDevelopment,
 } from "./container";
 import Home from "./pages/Home"
 import { Navbar, Slidert } from "./components";
@@ -23,14 +22,15 @@ const App = () => (
     <Navbar />
     <ScrollToTop />
     <Routes>
-    <Route path="/"  element={<Home />} />
-      <Route path="/website" element={<Boost />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/website" element={<WebDevelopment />} />
       <Route path="/graphic" element={<GraphicServices />} />
       <Route path="/about" element={<AboutUs />} />
       <Route path="/services" element={<Services />} />
+      <Route path="/contact" element={<ContactUs />} />
     </Routes>
+    <ContactUs />
     <Footer />
-    <FooterLast />
   </div>
 );
 

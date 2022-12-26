@@ -139,3 +139,29 @@ export default AppWrap(
   "skills",
   "app__primarybg"
 );
+
+
+// let graph = [
+//   {
+//     id: 1,
+//     image: images.ecom,
+//     title: "E-COMMERCE WEBSITE DEVELOPMENT",
+//     li1: "Custom eCommerce Website Development is a compelling strategy for creating online shops. Besides, because of the recent pandemic, eCommerce stores are even more influential. With our Custom E-Commerce Website Development Services, you do not need to worry about your online business because you can count on our qualified web designers to provide you with high-quality eCommerce development services. Our front-end and back-end web developers are trained to wield the power of e-Commerce CMS in visual and graphic design. This lets us take the idea you have for your online store and turn it into a proficient, eye-catching E-commerce site",
+//   },
+//   {
+//     id: 2,
+//     image: images.cms,
+//     title: "CONTENT MANAGEMENT SYSTEM (CMS) SERVICES",
+//     li1: "A content management system (CMS) is an application that is used to handle web content, providing various contributors to create, edit and publish content. SienTech provides Content Management Systems (CMS) Services enabling you and your staff to easily manage your website from a user-friendly interface. Our CMS is designed to be user-friendly and tailored to fit the custom needs of your organization. If you want to edit the content of any page on your website, our Content Management System (CMS) will present a window where users can edit the web content and users can also preview the changes they prepared. After approving the changes, it will immediately come into view live on the user’s website.",
+//     margin: "14rem",
+//   },
+//   {
+//     id: 3,
+//     image: images.portal,
+//     title: "COMPLEX DYNAMIC PORTAL DEVELOPMENT",
+//     li1: "We can offer an end-to-end Complex Dynamic Portal enabling services with creative web design elegance, combined with information of the newest technologies. Our process has been designed and proven to produce the greatest results in the shortest amount of time. These help to advance sales performance, increase client satisfaction and create marketing initiatives well-organized. Our Complex Dynamic Portal development, website development, web design, CMS and other services contain consulting and addition for portal-based solutions.",
+//     margin: "13rem",
+//     marginB: "10rem"
+
+//   },
+// ];

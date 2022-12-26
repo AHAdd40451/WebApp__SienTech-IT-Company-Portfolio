@@ -1,116 +1,80 @@
-/* eslint-disable semi */
-/* eslint-disable no-unused-vars */
-/* eslint-disable no-alert */
-/* eslint-disable padded-blocks */
-/* eslint-disable no-multiple-empty-lines */
-/* eslint-disable no-console */
-import React, { useState, useRef } from "react";
-import emailjs from "@emailjs/browser";
-import { runFireworks } from "./fireworks";
-
+/* eslint-disable react/jsx-closing-tag-location */
+/* eslint-disable import/newline-after-import */
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from "react";
+import { ImFacebook2 } from "react-icons/im";
+import { BsTwitter, BsInstagram, BsLinkedin } from "react-icons/bs";
 import { images } from "../../constants";
-import { AppWrap, MotionWrap } from "../../wrapper";
-import "./Footer.scss";
+import { Link } from "react-router-dom";
+
+import("./Footer.css");
 
 const Footer = () => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-    setLoading(true);
-    emailjs
-      .sendForm(
-        "service_v9fhsmw",
-        "template_vy5t9pn",
-        form.current,
-        "hRumW46UfwWKjwG4u"
-      )
-      .then(
-        (response) => {
-          console.log("SUCCESS!", response.status, response.text);
-          setLoading(false);
-          setIsFormSubmitted(true);
-        },
-        (error) => {
-          console.log("FAILED...", error);
-          alert("Failed ");
-        }
-      );
-    e.target.reset();
-  };
 
   return (
-    <>
-      <h2 className="head-text">Take a coffee & chat with Us</h2>
+    <div>
+      <footer className="footer">
+        <div className="container">
+          <div className="row">
+            <div className="footer-col">
+              <h4 className="main-heads">SienTech</h4>
+              <ul>
+                <span className="rights">
+                  SienTech Limited is a software firm that provides services such
+                  as websites, Graphic Designing among others
+                </span>
+              </ul>
+            </div>
+            <div className="footer-col">
+              <h4>Usefull Links</h4>
+              <ul>
+                <li>
+                  <Link to="/">Home</Link>
+                </li>
+                <li>
+                  <Link to="/about">About us</Link>
+                </li>
+                <li>
+                  <Link to="/services">Services</Link>
+                </li>
+                <li>
+                  <Link to="/contact">Contact</Link>
+                </li>
+              </ul>
+            </div>
+            <div className="footer-col">
+              <h4>Locations</h4>
+              <ul>
+                <img src={images.canada} alt="" className="canada" />
+                <li className="flag-de">
+                  1003 , 46 Street NE , Calgary T3J0Y7, Alberta , Canada
+                </li>
+              </ul>
+            </div>
+            <div className="footer-col">
+              <h4>Follow Us</h4>
+              <div className="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100088733316507&mibextid=LQQJ4d">
+                  <ImFacebook2 />
+                </a>
+                <a href="https://twitter.com/Sientech_ltd">
+                  <BsTwitter />
+                </a>
+                <a href="https://www.linkedin.com/groups/9275002">
+                  <BsLinkedin />
+                </a>
+              </div>
+              <span className="rights">©SienTech, Inc. All rights reserved.</span>
+            </div>
+          </div>
+        </div>
+      </footer>
 
-      <div className="app__footer-cards">
-        <div className="app__footer-card ">
-          <img src={images.email} alt="email" />
-          <a href="moizahmed143@gmail.com" className="cellno">
-            moizahmed143@gmail.com
-          </a>
-        </div>
-        <div className="app__footer-card">
-          <img src={images.mobile} alt="phone" />
-          <a href="tel:+13065517847" className="cellno">
-            +13065517847
-          </a>
-        </div>
-      </div>
-      {!isFormSubmitted ? (
-        <div className="app__footer-form app__flex">
-          <form ref={form} onSubmit={sendEmail}>
-            <div className="app__flex">
-              <input
-                className="cellno"
-                type="name"
-                placeholder="Your Name"
-                name="name"
-                required
-              />
-              <input
-                type="email"
-                placeholder="Your Email"
-                name="email"
-                className="cellno emailC"
-                required
-              />
-            </div>
-            <div>
-              <textarea
-                className="cellno"
-                placeholder="Your Message"
-                name="message"
-                required
-              />
-            </div>
-            <button type="submit" className="" onClick={sendEmail}>
-              {!loading ? "Send Message" : "Sending..."}
-            </button>
-          </form>
-        </div>
-      ) : (
-        <div>
-          <h3 className="head-text">
-            Thank you for getting in touch!
-            {runFireworks()}
-          </h3>
-        </div>
-      )}
-    </>
-  );
+    </div>
+
+  )
+
 };
 
-export default AppWrap(
-  MotionWrap(Footer, "app__footer"),
-  "contact",
-  "app__whitebg"
-);
+export default Footer;
