@@ -48,7 +48,7 @@ const Footer = () => {
               <ul>
                 <img src={images.canada} alt="" className="canada" />
                 <li className="flag-de">
-                  1003 , 46 Street NE , Calgary T3J0Y7, Alberta , Canada
+                  10033 , 46 Street NE , Calgary,AB T3J0Y7, Alberta, Canada
                 </li>
               </ul>
             </div>

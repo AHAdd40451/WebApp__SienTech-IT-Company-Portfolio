@@ -57,8 +57,8 @@ const ContactUs = () => {
 
         </div>
         <div className="app__footer-card">
-          <img src={images.mobile} alt="phone" />
-          <a href="tel:+13065517847" className="cellno">
+          <img src={images.whatsapp} alt="phone" />
+          <a href="https://wa.me/message/KH4S6YBC5AFVF1" className="cellno">
             +13065517847
           </a>
 

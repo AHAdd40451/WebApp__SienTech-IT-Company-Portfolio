@@ -58,6 +58,7 @@ import graphicSlider from '../assets/graphicSlider.webp';
 import faceGraphic from '../assets/faceGraphic.png';
 import companySlider from '../assets/companySlider.png';
 import finalSc from '../assets/finalSc.png';
+import whatsapp from '../assets/whatsapp.png';
 
 
 
@@ -65,6 +66,7 @@ import finalSc from '../assets/finalSc.png';
 
 
 export default {
+  whatsapp,
   finalSc,
   companySlider,
   faceGraphic,
